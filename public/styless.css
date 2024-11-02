@@ -1,0 +1,111 @@
+
+
+
+
+/* تصميم عام */
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* تصميم القائمة */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007BFF;
+  padding: 15px 30px;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar .logo span {
+  color: #FFC107;
+}
+
+.navbar .menu-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .menu-links li {
+  margin: 0 15px;
+}
+
+.navbar .menu-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar .menu-links a:hover {
+  color: #FFC107;
+}
+
+#hamburger-btn, #close-menu-btn {
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* إضافة تسجيل الخروج بأقصى اليسار */
+.logout-btn {
+  margin-left: auto; /* لتحريك الزر إلى أقصى اليسار */
+  color: #fff;
+  background-color: #DC3545; /* اللون الأحمر */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c82333; /* لون أغمق عند التمرير */
+}
+
+/* تصميم قسم البطل */
+.hero-section {
+  background-image: url('images/—Pngtree—mineral water poster background template_1030687.jpg'); /* ضع هنا صورة خلفية مناسبة */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 150px 0;
+  color: #fff;
+}
+
+.hero-section .content h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-section .content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-section .cta-button {
+  background-color: #FFC107;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section .cta-button:hover {
+  background-color: #ffb007;
+}
+
+
